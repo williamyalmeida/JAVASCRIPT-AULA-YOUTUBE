@@ -1,8 +1,10 @@
 
-let velocidade = 10
-let aceleracao = 5
+let velocidade = 0
+let aceleracao = 1
 
-while(velocidade >= 50){
-    console.log(`A velocidade está ${velocidade}km/s`)
-    aceleracao +=1
+while(velocidade <=20){
+
+    console.log(`A velocida está ${velocidade}km/s `)
+    velocidade+=aceleracao
+    
 }
