@@ -1,0 +1,5 @@
+var posicao = 0
+var nome = 'Mikael'
+var sobreNome = 'Holandes'
+var nomeCompleto = nome + sobreNome
+console.log(nomeCompleto)
